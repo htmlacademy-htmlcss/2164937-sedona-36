@@ -2,8 +2,9 @@
 
 * Студент: [Данила Думалкин](https://up.htmlacademy.ru/htmlcss/36/user/2164937).
 * Наставник: [Иван Бессалов] (https://htmlacademy.ru/profile/lvov).
+(
 
----
+    ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
 _`.editorconfig`, `.gitattributes`, `.gitignore`, `Contributing.md`, `Readme.md`._
