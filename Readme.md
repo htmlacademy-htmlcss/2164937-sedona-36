@@ -1,8 +1,8 @@
 # Личный проект «Седона»
 
 * Студент: [Данила Думалкин](https://up.htmlacademy.ru/htmlcss/36/user/2164937).
-* Наставник: [Иван Бессалов] (https://htmlacademy.ru/profile/lvov).
-(
+* Наставник: [Иван Бессалов](https://htmlacademy.ru/profile/lvov).
+
 
     ---
 
