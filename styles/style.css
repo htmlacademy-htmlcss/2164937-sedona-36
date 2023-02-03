@@ -2,19 +2,36 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
-  src: url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap') format("woff2");
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
  font-display: swap;
 }
 @font-face {
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
-  src: url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap') format("woff2");
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
  font-display: swap;
 }
-
 body{
-font-family: "PT Sans", sans-serif;
-font-size: 22px;
-line-height: 26px;
+ font-family: "PT Sans", sans-serif;
+ font-size: 24px;
+ line-height: 28px;
+ color: black;
+ background-color: aliceblue;
+}
+header{
+  color: black;
+  background: #ffffff;
+}
+.navigation-link{
+  font-family: "PT Sans", sans-serif;
+ font-size: 20px;
+ line-height: 24px;
+ color: inherit;
+ text-align: center;
+ text-decoration: none;
+ text-transform: uppercase;
+}
+main footer{
+  background-image: url("../image/background_and_photo/backgtoud-subscribe.jpg");
 }
