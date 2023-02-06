@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+ font-display: swap;
+}
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+ font-display: swap;
+}
+body{
+ font-family: "PT Sans", sans-serif;
+ font-size: 18px;
+ line-height: 21px;
+ color: black;
+ background-color: aliceblue;
+}
+header{
+  color: black;
+  background: #ffffff;
+}
+.navigation-link{
+  font-family: "PT Sans", sans-serif;
+ font-size: 20px;
+ line-height: 24px;
+ color: inherit;
+ text-align: center;
+ text-decoration: none;
+ text-transform: uppercase;
+}
+.hero h2 {
+  font-size: 30px;
+  line-height: 36px;
+}
+.hero p {
+  font-size: 22px;
+  line-height: 26px;
+}
+.advantages h3 {
+  font-size: 24px;
+  line-height: 28px;
+}
+.newsletter h2{
+  font-size: 30px;
+  line-height: 36px;
+}
+newsletter p{
+  font-size: 22px;
+  line-height: 26px;
+}
+.inner-header-title {
+  font-size: 60px;
+  line-height: 78px;
+}
+.catalog-filter-title {
+  font-size: 20px;
+  line-height: 24px;
+}
+.control-input{
+  line-height: 23px;
+}
+.hotel-card-title{
+  font-size: 24px;
+  line-height: 28px;
+}
+main footer{
+  background-image: url("../image/background_and_photo/backgtoud-subscribe.jpg");
+}
