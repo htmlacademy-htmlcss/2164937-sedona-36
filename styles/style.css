@@ -18,10 +18,16 @@ body{
  line-height: 21px;
  color: #000;
  background-color: #ffffff;
+ padding: 0px 40px;
 }
-header{
+.header{
   color: #000;
   background: #ffffff;
+}
+.main-index{
+  background: url(../image/background_and_photo/index-background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 .navigation-link{
   font-family: "PT Sans", sans-serif;
@@ -108,7 +114,6 @@ color: #FFFFFF;
   font-size: 22px;
   line-height: 26px;
 }
-main footer{
-
+.main-index .footer{
   background-image: url("../image/background_and_photo/backgtoud-subscribe.jpg");
 }
