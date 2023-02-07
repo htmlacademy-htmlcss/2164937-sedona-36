@@ -28,6 +28,8 @@ body{
   background: url(../image/background_and_photo/index-background.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
+  Width: 1200px;
+  Height: 485px;
 }
 .navigation-link{
   font-family: "PT Sans", sans-serif;
@@ -135,7 +137,6 @@ color: #FFFFFF;
   line-height: 26px;
 }
 .subscribe-button{
-
 }
 .main-index .footer{
   background-image: url("../image/background_and_photo/backgtoud-subscribe.jpg");
