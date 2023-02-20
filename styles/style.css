@@ -12,17 +12,26 @@
   src: url("../fonts/ptsans-700.woff2") format("woff2");
  font-display: swap;
 }
+html{
+  height: 100%;
+}
 body{
+ margin: 0;
+ display: flex;
+ flex-direction: column;
+ min-height: 100%;
  font-family: "PT Sans", sans-serif;
  font-size: 18px;
  line-height: 21px;
  color: #000;
  background-color: #ffffff;
- padding: 40px;
 }
 .header{
   color: #000;
   background: #ffffff;
+}
+.main-container{
+  flex-grow: 1;
 }
 .main-index{
   background: url(../image/background_and_photo/index-background.jpg);
@@ -30,6 +39,28 @@ body{
   background-size: 100%;
   Width: 1200px;
   Height: 485px;
+}
+.page-container{
+  width: 100%;
+  margin: 0 auto;
+}
+.logo{
+  display: block;
+  margin: 0 auto;
+}
+.navigation{
+display: flex;
+width: 1200px;
+margin: 0 auto;
+}
+.navigation-list{
+  width: 507;
+  margin: 0;
+  padding: 0
+}
+.navigation-user{
+  max-width: 268px;
+  margin-left: auto;
 }
 .navigation-link{
   font-family: "PT Sans", sans-serif;
@@ -44,6 +75,7 @@ body{
   line-height: 36px;
   font-weight: 700;
   text-align: center;
+  border: 1px solid #000000
 }
 .hero p {
   font-size: 22px;
@@ -90,6 +122,10 @@ body{
   background: #82B3D3;
   text-transform: uppercase;
 }
+.advantages-list{
+  margin: 0;
+  padding: 0;
+}
 .advantages-title {
   font-size: 24px;
   line-height: 28px;
@@ -101,8 +137,8 @@ body{
   text-align: center;
 }
 .advantages-item-real-city{
-background: #82B3D3;
-color: #FFFFFF;
+ background: #82B3D3;
+ color: #FFFFFF;
 }
 .advantages-item-devil-bridge{
   background: #82B3D3;
