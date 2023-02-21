@@ -12,6 +12,18 @@
   src: url("../fonts/ptsans-700.woff2") format("woff2");
  font-display: swap;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}w
 html{
   height: 100%;
 }
@@ -143,7 +155,7 @@ margin: 0 auto;
   text-align: center;
 }
 .advantages-item-container{
-  Width: 400px;
+  width: 400px;
   height: 384px;
 }
 .advantages-item-real-city{
@@ -180,24 +192,10 @@ margin: 0 auto;
   font-weight: 700;
   text-align: center;
 }
-.subscribe p{
+.footer-text{
   font-size: 22px;
   line-height: 26px;
 }
-.subscribe-button{
-}
 .main-index .footer{
-  background-image: url("../image/background_and_photo/backgtoud-subscribe.jpg");
-}
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+  background-image: url(../image/background_and_photo/background-subscribe.jpg)
 }
