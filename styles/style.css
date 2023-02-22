@@ -276,6 +276,9 @@ min-height: 64px;
   list-style-type: none;
 }
 .footer-social-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 48px;
   height: 40px;
 }
