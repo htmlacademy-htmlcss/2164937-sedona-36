@@ -50,7 +50,7 @@ body{
   background: url(../image/background_and_photo/index-background.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
-  Width: 1200px;
+  width: 1200px;
   margin: 0 auto;
 }
 .page-container{
@@ -162,9 +162,9 @@ margin: 0 auto;
 }
 
 .advantages-item-real-city{
- background-color: #82B3D3;
- color: #FFFFFF;
- display: flex;
+  background-color: #82B3D3;
+  color: #FFFFFF;
+  display: flex;
 }S
 .advantages-item-devil-bridge{
   background: #82B3D3;
@@ -188,6 +188,15 @@ margin: 0 auto;
   background-color: #756157;
   text-decoration: none;
   text-transform: uppercase;
+}
+.subscribe-button{
+  width: 232px;
+  height: 52px;
+  background-color: #82B3D3;
+}
+.field{
+  width: 452px;
+  height: 52px;
 }
 .footer-title{
   font-size: 30px;
