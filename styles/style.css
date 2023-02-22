@@ -36,7 +36,7 @@ body{
  font-size: 18px;
  line-height: 21px;
  color: #000;
- background-color: #ffffff;
+ background-color: #f2f2f2;
  padding: 40px;
 }
 .header{
@@ -56,6 +56,7 @@ body{
 .page-container{
   width: 1200px;
   margin: 0 auto;
+  background-color: #ffffff;
 }
 .logo{
   display: block;
@@ -155,14 +156,16 @@ margin: 0 auto;
   text-align: center;
 }
 .advantages-item-container{
-  width: 400px;
-  height: 384px;
+  width: 230px;
+  min-height: 181px;
+  padding: 92px 85px;
 }
+
 .advantages-item-real-city{
- background: #82B3D3;
+ background-color: #82B3D3;
  color: #FFFFFF;
  display: flex;
-}
+}S
 .advantages-item-devil-bridge{
   background: #82B3D3;
   color: #FFFFFF;
