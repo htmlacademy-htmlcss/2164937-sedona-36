@@ -28,6 +28,7 @@ html{
   height: 100%;
 }
 body{
+  width: 1200px;
  margin: 0;
  display: flex;
  flex-direction: column;
@@ -68,16 +69,26 @@ width: 1200px;
 margin: 0 auto;
 }
 .navigation-list{
-  width: 507;
-  margin: 0;
-  padding: 0
+display: flex;
+flex-wrap: wrap;
+width: 507;
+margin: 0;
+padding: 0;
+list-style-type: none;
 }
+
 .navigation-user{
   max-width: 268px;
   margin-left: auto;
 }
+.navigation-user .navigation-link{
+min-width: 44px;
+min-height: 64px;
+}
 .navigation-link{
-  font-family: "PT Sans", sans-serif;
+ display: block;
+ padding: 20px 16px;
+ font-family: "PT Sans", sans-serif;
  font-size: 20px;
  line-height: 24px;
  color: inherit;
@@ -136,13 +147,14 @@ margin: 0 auto;
   font-size: 18px;
   line-height: 20px;
   background: #82B3D3;
-  text-transform: uppercase;;
+  text-transform: uppercase;
 }
 .advantages-list{
   margin: 0;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
+  list-style-type: none;
 }
 .advantages-title {
   font-size: 24px;
@@ -206,6 +218,14 @@ margin: 0 auto;
   margin: 0 auto;
   text-align: center;
 }
+.subscribe-container{
+  width: 684px;
+  margin: 0 auto;
+  text-align: center;
+}
+.subscribe-form{
+  display: flex;
+}
 .subscribe-button{
   width: 232px;
   height: 52px;
@@ -231,7 +251,22 @@ margin: 0 auto;
   font-size: 22px;
   line-height: 26px;
 }
-
+.footer-social{
+  width: 1060px;
+  height: 50px;
+  display: flex;
+  padding: 40px 70px 30px 70px;
+}
+.footer-social-list{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.footer-social-item{
+  width: 47.33px;
+  height: 40px;
+}
 .main-index .footer{
   background-image: url(../image/background_and_photo/background-subscribe.jpg)
 }
