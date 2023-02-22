@@ -71,6 +71,7 @@ margin: 0 auto;
   width: 507;
   margin: 0;
   padding: 0
+
 }
 .navigation-user{
   max-width: 268px;
@@ -206,6 +207,14 @@ margin: 0 auto;
   margin: 0 auto;
   text-align: center;
 }
+.subscribe-container{
+  width: 684px;
+  margin: 0 auto;
+  text-align: center;
+}
+.subscribe-form{
+  display: flex;
+}
 .subscribe-button{
   width: 232px;
   height: 52px;
@@ -231,6 +240,7 @@ margin: 0 auto;
   font-size: 22px;
   line-height: 26px;
 }
+
 
 .main-index .footer{
   background-image: url(../image/background_and_photo/background-subscribe.jpg)
