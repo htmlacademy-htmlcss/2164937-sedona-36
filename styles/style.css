@@ -12,6 +12,12 @@
   src: url("../fonts/ptsans-700.woff2") format("woff2");
  font-display: swap;
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -23,12 +29,11 @@
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}w
+}
 html{
   height: 100%;
 }
 body{
-  width: 1200px;
  margin: 0;
  display: flex;
  flex-direction: column;
@@ -47,11 +52,11 @@ body{
 .main-container{
   flex-grow: 1;
 }
-.main-index{
+.hero{
   background: url(../image/background_and_photo/index-background.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
-  width: 1200px;
+  width: 100%;
   margin: 0 auto;
 }
 .page-container{
@@ -167,7 +172,7 @@ min-height: 64px;
   text-align: center;
 }
 .advantages-item-container{
-  width: 230px;
+  width: 400px;
   min-height: 181px;
   padding: 92px 85px;
 }
@@ -228,8 +233,14 @@ min-height: 64px;
 }
 .subscribe-button{
   width: 232px;
-  height: 52px;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
   background-color: #82B3D3;
+  border: none;
+  text-transform: uppercase;
+
 }
 .search-title{
   font-size: 30px;
@@ -253,9 +264,10 @@ min-height: 64px;
 }
 .footer-social{
   width: 1060px;
-  height: 50px;
   display: flex;
-  padding: 40px 70px 30px 70px;
+  margin: 0 70px 0 70px;
+  padding: 40px 30px;
+  justify-content: space-between;
 }
 .footer-social-list{
   display: flex;
@@ -264,9 +276,18 @@ min-height: 64px;
   list-style-type: none;
 }
 .footer-social-item{
-  width: 47.33px;
+  width: 48px;
   height: 40px;
 }
-.main-index .footer{
+.social-button{
+  margin: 50% 50%;
+}
+.footer-contacts-address-phone{
+  color: #000;
+  font-size: 40px;
+  line-height: 40px;
+  text-decoration: none;
+}
+.subscribe{
   background-image: url(../image/background_and_photo/background-subscribe.jpg)
 }
