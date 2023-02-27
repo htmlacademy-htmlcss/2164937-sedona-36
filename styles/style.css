@@ -59,7 +59,8 @@ body{
   display: flex
 }
 .logo-sedona{
-
+position: relative;
+bottom: -6px;
 }
 .hero{
   background: url(../image/background_and_photo/index-background.jpg);
@@ -92,26 +93,45 @@ font-style: normal;
 font-weight: 700;
 }
 .navigation-link{
-  display: block;
-  padding: 20px 16px;
-  font-family: "PT Sans", sans-serif;
-  font-size: 20px;
-  line-height: 24px;
-  color: inherit;
-  text-decoration: none;
-  text-transform: uppercase;
+display: block;
+padding: 20px 16px;
+font-family: "PT Sans", sans-serif;
+font-size: 20px;
+line-height: 24px;
+color: inherit;
+text-decoration: none;
+text-transform: uppercase;
+ }
+.navigation-link-current{
+  position: relative;
+ }
+.navigation-link-curren  {
+position: absolute;
+content: "";
+right: 16px;
+left: 16px;
+bottom: 0;
+height: 2px;
+background-color: #756257;
  }
 .navigation-link-button{
- background-color: #756157;
+  background: #756157;
+  border-radius: 4px;
  display: block;
  margin-left: 20px;
 }
 .navigation-user{
   margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 .navigation-user .navigation-link{
-min-width: 44px;
-min-height: 64px;
+padding-top: 8px;
+padding-right: 34px;
+padding-bottom: 8px;
+padding-left: 34px;
+color: #ffffff;
 }
 .hero h2 {
   font-size: 30px;
@@ -207,10 +227,6 @@ min-height: 64px;
   background: #FFFFFF;
   text-align: center;
 }
-.subscribe-container{
-  margin: 0 auto;
-  text-align: center;
-}
 .search{
   padding: 96px 304px;
 }
@@ -237,6 +253,8 @@ min-height: 64px;
   width: 684px;
   margin: 0 auto;
   text-align: center;
+  padding-top: 96px;
+  padding-bottom: 104px;
 }
 .subscribe-form{
   display: flex;
