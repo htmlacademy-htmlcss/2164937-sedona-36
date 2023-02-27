@@ -105,12 +105,12 @@ text-transform: uppercase;
 .navigation-link-current{
   position: relative;
  }
-.navigation-link-curren  {
+.navigation-link-current::after  {
 position: absolute;
 content: "";
 right: 16px;
 left: 16px;
-bottom: 0;
+bottom: -7px;
 height: 2px;
 background-color: #756257;
  }
