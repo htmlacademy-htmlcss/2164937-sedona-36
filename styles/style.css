@@ -51,6 +51,7 @@ body{
   background: #ffffff;
   padding-left: 70px;
   padding-right: 70px;
+  height: 64px;
 }
 .main-container{
   flex-grow: 1;
@@ -61,6 +62,7 @@ body{
 .logo-sedona{
 position: relative;
 bottom: -6px;
+top: 0;
 }
 .hero{
   background: url(../image/background_and_photo/index-background.jpg);
@@ -93,6 +95,7 @@ font-style: normal;
 font-weight: 700;
 }
 .navigation-link{
+position: relative;
 display: block;
 padding: 20px 16px;
 font-family: "PT Sans", sans-serif;
@@ -101,6 +104,14 @@ line-height: 24px;
 color: inherit;
 text-decoration: none;
 text-transform: uppercase;
+}
+ .navigation-icon{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin:auto;
  }
 .navigation-link-current{
   position: relative;
@@ -110,29 +121,29 @@ position: absolute;
 content: "";
 right: 16px;
 left: 16px;
-bottom: -7px;
+bottom: -1px;
 height: 2px;
 background-color: #756257;
  }
 .navigation-link-button{
-  background: #756157;
-  border-radius: 4px;
+ background: #756157;
+ border-radius: 4px;
  display: block;
  margin-left: 20px;
+ padding-top: 8px;
+ padding-right: 34px;
+ padding-bottom: 8px;
+ padding-left: 34px;
+ color: #ffffff;
 }
 .navigation-user{
   margin-left: auto;
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding-bottom: 8px;
 }
-.navigation-user .navigation-link{
-padding-top: 8px;
-padding-right: 34px;
-padding-bottom: 8px;
-padding-left: 34px;
-color: #ffffff;
-}
+
 .hero h2 {
   font-size: 30px;
   line-height: 36px;
@@ -232,7 +243,7 @@ color: #ffffff;
 }
 .search-botton{
   width: 376px;
-  height: 36px;
+  height: 52px;
   font-family: inherit;
   font-size: 16px;
   line-height: 16px;
@@ -243,6 +254,9 @@ color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
   padding: 8px 50px;
+  border: none;
+  border-radius: 4px 4px 4px 4px;
+  cursor: pointer;
 }
 .search-container{
   width: 592px;
@@ -268,6 +282,7 @@ color: #ffffff;
   background-color: #82B3D3;
   border: none;
   text-transform: uppercase;
+  border-radius: 0 4px 4px 0;
 
 }
 .search-title{
@@ -279,6 +294,8 @@ color: #ffffff;
 .field{
   width: 452px;
   height: 52px;
+  border: none;
+  border-radius: 4px 0px 0 4px;
 }
 .footer-title{
   font-size: 30px;
