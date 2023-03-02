@@ -313,6 +313,7 @@ background-color: #756257;
 }
 .advantages-title-home::after{
   background-image: url(../image/vector-main/Vector-home.svg);
+  background-repeat: no-repeat;
   content: "";
   display: block;
   position: relative;
@@ -400,19 +401,17 @@ background-color: #756257;
 .subscribe{
   background-image: url(../image/background_and_photo/background-subscribe.jpg);
   background-repeat: no-repeat;
-
-  margin: 0 auto;
+  height: 414px;
 }
 .subscribe-container{
   width: 684px;
   margin: 0 auto;
   text-align: center;
-  padding-top: 96px;
+  padding-top: 60px;
   color: #ffffff;
 }
 .subscribe-form{
   display: flex;
-  padding-bottom: 104px;
 }
 .subscribe-button{
   width: 232px;
@@ -448,6 +447,7 @@ background-color: #756257;
   font-size: 22px;
   line-height: 26px;
   padding-bottom: 54px;
+  margin: 0 auto;
 }
 .footer-social{
   width: 1060px;
