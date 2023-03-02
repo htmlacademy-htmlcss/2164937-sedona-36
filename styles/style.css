@@ -236,20 +236,43 @@ background-color: #756257;
   line-height: 28px;
   text-align: center;
   font-weight: 700;
-  padding-bottom: 30px;
   text-transform: uppercase;
 }
 .advantages-title::after{
   content: "";
   display: block;
+  position: relative;
   bottom: 0;
   left: 50%;
   right: 50%;
   transform: translateX(-50%);
   width: 60px;
-  height: px;
-  background-color: #f2f2f2;
-  padding-bottom: 30px;
+  height: 2px;
+  background-color: #f2f2f2 ;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.advantages-title-center{
+  position: relative;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.advantages-title-center::after{
+  content: "";
+  display: block;
+  position: relative;
+  bottom: 0;
+  left: 50%;
+  right: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 2px;
+  background-color: #0000004D;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .advantages-item{
   background: rgba(131, 179, 211, 0.12);
@@ -276,6 +299,74 @@ background-color: #756257;
 }
 .advantages-item-road{
   background: rgba(131, 179, 211, 0.2);
+}
+.advantages-title-home {
+  background-repeat: no-repeat;
+  position: relative;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  font-weight: 700;
+  height: 28px;
+  text-transform: uppercase;
+  margin-top: 101px;
+}
+.advantages-title-home::after{
+  background-image: url(../image/vector-main/Vector-home.svg);
+  content: "";
+  display: block;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  transform: translateX(-50%);
+  width: 75px;
+  height: 72px;
+  bottom: 130px;
+}
+.advantages-title-food {
+  position: relative;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 700;
+  height: 28px;
+  text-transform: uppercase;
+  margin-top: 101px;
+}
+.advantages-title-food::after{
+  background-image: url(../image/vector-main/vector-food.svg);
+  background-repeat: no-repeat;
+  content: "";
+  display: block;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  transform: translateX(-50%);
+  width: 75px;
+  height: 70px;
+  bottom: 130px;
+}
+.advantages-title-gift {
+  position: relative;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  font-weight: 700;
+  height: 28px;
+  text-transform: uppercase;
+  margin-top: 101px;
+}
+.advantages-title-gift::after{
+  background-image: url(../image/vector-main/Vector-gift.svg);
+  background-repeat: no-repeat;
+  content: "";
+  display: block;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  transform: translateX(-50%);
+  width: 75px;
+  height: 76px;
+  bottom: 130px;
 }
 .advantages-item-food{
   background: #FFFFFF;
