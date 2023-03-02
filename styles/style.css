@@ -56,9 +56,6 @@ body{
 .main-container{
   flex-grow: 1;
 }
-.weclome{
-  display: flex
-}
 .logo-sedona{
 position: relative;
 bottom: -6px;
@@ -76,7 +73,19 @@ top: 0;
   margin: 0 auto;
   background-color: #ffffff;
 }
-.logo{
+.weclome{
+  display: flex;
+
+}
+.logo-welcome{
+  display: block;
+  margin: 0 auto;
+}
+.logo-gorgeous{
+  display: block;
+  margin: 0 auto;
+}
+.logo-sucks{
   display: block;
   margin: 0 auto;
 }
@@ -207,6 +216,7 @@ background-color: #756257;
   line-height: 28px;
   text-align: center;
   font-weight: 700;
+  padding-bottom: 62px;
 }
 .advantages-item{
   background: rgba(131, 179, 211, 0.12);
@@ -214,7 +224,7 @@ background-color: #756257;
 }
 .advantages-item-container{
   width: 400px;
-  min-height: 181px;
+  height: 384px;
   padding: 92px 85px;
 }
 
