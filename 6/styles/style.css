@@ -273,15 +273,22 @@ background-color: #756257;
   margin: 0 auto;
   text-align: center;
 }
+.subscribe{
+  background-image: url(../image/background_and_photo/background-subscribe.jpg);
+  background-repeat: no-repeat;
+
+  margin: 0 auto;
+}
 .subscribe-container{
   width: 684px;
   margin: 0 auto;
   text-align: center;
   padding-top: 96px;
-  padding-bottom: 104px;
+  color: #ffffff;
 }
 .subscribe-form{
   display: flex;
+  padding-bottom: 104px;
 }
 .subscribe-button{
   width: 232px;
@@ -293,7 +300,6 @@ background-color: #756257;
   border: none;
   text-transform: uppercase;
   border-radius: 0 4px 4px 0;
-
 }
 .search-title{
   font-size: 30px;
@@ -305,17 +311,19 @@ background-color: #756257;
   width: 452px;
   height: 52px;
   border: none;
-  border-radius: 4px 0px 0 4px;
+  border-radius: 4px 0 0 4px;
 }
 .footer-title{
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
   text-align: center;
+  text-transform: uppercase;
 }
 .footer-text{
   font-size: 22px;
   line-height: 26px;
+  padding-bottom: 54px;
 }
 .footer-social{
   width: 1060px;
@@ -337,6 +345,18 @@ background-color: #756257;
   width: 48px;
   height: 40px;
 }
+.social-logo:hover{
+ color: #68A2CA;
+}
+.social-logo:focus{
+  color: #68A2CA;
+ }
+ .social-logo:active{
+  color: #68A2CA 30%;
+ }
+.social-logo{
+ color: #83B3D3;
+}
 .social-button{
   margin: 50% 50%;
 }
@@ -346,6 +366,12 @@ background-color: #756257;
   line-height: 40px;
   text-decoration: none;
 }
-.subscribe{
-  background-image: url(../image/background_and_photo/background-subscribe.jpg)
+.footer-contacts-address-phone:hover{
+color: #756157;
+}
+.footer-contacts-address-phone:focus{
+  color: #756157;
+}
+.footer-contacts-address-phone:active{
+  color: #756157 30%;
 }
