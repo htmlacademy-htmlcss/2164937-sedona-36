@@ -274,18 +274,21 @@ background-color: #756257;
   text-align: center;
 }
 .subscribe{
-  background-image: url(../image/background_and_photo/background-subscribe.jpg)
+  background-image: url(../image/background_and_photo/background-subscribe.jpg);
+  background-repeat: no-repeat;
+
+  margin: 0 auto;
 }
 .subscribe-container{
   width: 684px;
   margin: 0 auto;
   text-align: center;
   padding-top: 96px;
-  padding-bottom: 104px;
   color: #ffffff;
 }
 .subscribe-form{
   display: flex;
+  padding-bottom: 104px;
 }
 .subscribe-button{
   width: 232px;
@@ -297,7 +300,6 @@ background-color: #756257;
   border: none;
   text-transform: uppercase;
   border-radius: 0 4px 4px 0;
-
 }
 .search-title{
   font-size: 30px;
@@ -316,10 +318,12 @@ background-color: #756257;
   line-height: 36px;
   font-weight: 700;
   text-align: center;
+  text-transform: uppercase;
 }
 .footer-text{
   font-size: 22px;
   line-height: 26px;
+  padding-bottom: 54px;
 }
 .footer-social{
   width: 1060px;
