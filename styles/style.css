@@ -73,21 +73,14 @@ top: 0;
   margin: 0 auto;
   background-color: #ffffff;
 }
-.weclome{
-  display: flex;
-
-}
-.logo-welcome{
+.welcome{
+ padding-top: 51px;
+ padding-bottom: 151px;
+ }
+.logo{
   display: block;
   margin: 0 auto;
-}
-.logo-gorgeous{
-  display: block;
-  margin: 0 auto;
-}
-.logo-sucks{
-  display: block;
-  margin: 0 auto;
+  padding-bottom: ;
 }
 .navigation{
 display: flex;
