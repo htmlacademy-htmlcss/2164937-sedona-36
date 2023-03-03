@@ -334,7 +334,7 @@ background-color: #756257;
   margin-top: 101px;
 }
 .advantages-title-food::after{
-  background-image: url(../image/vector-main/vector-food.svg);
+  background-image: url(../image/vector-main/Vector-food.svg);
   background-repeat: no-repeat;
   content: "";
   display: block;
