@@ -469,17 +469,17 @@ background-color: #756257;
   width: 48px;
   height: 40px;
 }
-.social-logo:hover{
- color: #68A2CA;
+.social-button:hover svg{
+ fill: #68A2CA;
 }
-.social-logo:focus{
-  color: #68A2CA;
- }
- .social-logo:active{
-  color: #68A2CA 30%;
- }
-.social-logo{
- color: #83B3D3;
+.social-button:focus svg{
+  fill: #68A2CA;
+}
+.ssocial-button:active svg{
+  fill: #68A2CA 30%;
+}
+.social-button svg{
+ fill: #83B3D3;
 }
 .social-button{
   margin: 50% 50%;
@@ -498,4 +498,13 @@ color: #756157;
 }
 .footer-contacts-address-phone:active{
   color: #756157 30%;
+}
+.footer-logo-HTML:hover svg{
+  fill: #756157;
+}
+.footer-logo-HTML:focus svg{
+  fill: #756157;
+}
+.footer-logo-HTML:active svg{
+  fill: #756157 30 %;
 }
