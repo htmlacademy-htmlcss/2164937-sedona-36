@@ -354,7 +354,7 @@ background-color: #756257;
   font-weight: 700;
   height: 28px;
   text-transform: uppercase;
-  margin-top: 101px;
+  margin-top: 100px;
 }
 .advantages-title-gift::after{
   background-image: url(../image/vector-main/Vector-gift.svg);
@@ -367,7 +367,7 @@ background-color: #756257;
   transform: translateX(-50%);
   width: 75px;
   height: 76px;
-  bottom: 130px;
+  bottom: 140px;
 }
 .advantages-item-food{
   background: #FFFFFF;
@@ -376,7 +376,7 @@ background-color: #756257;
 .search{
   padding: 96px 304px;
 }
-.search-botton{
+.search-link-botton{
   width: 376px;
   height: 52px;
   font-family: inherit;
@@ -397,6 +397,12 @@ background-color: #756257;
   width: 592px;
   margin: 0 auto;
   text-align: center;
+}
+.search-title{
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  margin-top: 0
 }
 .subscribe{
   background-image: url(../image/background_and_photo/background-subscribe.jpg);
@@ -423,12 +429,6 @@ background-color: #756257;
   border: none;
   text-transform: uppercase;
   border-radius: 0 4px 4px 0;
-}
-.search-title{
-  font-size: 30px;
-  line-height: 36px;
-  text-transform: uppercase;
-  margin-top: 0;
 }
 .field{
   width: 452px;
@@ -506,5 +506,5 @@ color: #756157;
   fill: #756157;
 }
 .footer-logo-HTML:active svg{
-  fill: #756157 30 %;
+  fill: #756157 30%;
 }
