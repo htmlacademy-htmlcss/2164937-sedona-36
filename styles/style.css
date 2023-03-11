@@ -404,6 +404,9 @@ background-color: #756257;
   text-transform: uppercase;
   margin-top: 0
 }
+.search-text{
+  margin-bottom: 54px;
+}
 .subscribe{
   background-image: url(../image/background_and_photo/background-subscribe.jpg);
   background-repeat: no-repeat;
