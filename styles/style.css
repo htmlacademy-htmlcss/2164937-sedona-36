@@ -334,7 +334,7 @@ background-color: #756257;
   margin-top: 101px;
 }
 .advantages-title-food::after{
-  background-image: url(../image/vector-main/vector-food.svg);
+  background-image: url(../image/vector-main/Vector-food.svg);
   background-repeat: no-repeat;
   content: "";
   display: block;
@@ -354,7 +354,7 @@ background-color: #756257;
   font-weight: 700;
   height: 28px;
   text-transform: uppercase;
-  margin-top: 101px;
+  margin-top: 100px;
 }
 .advantages-title-gift::after{
   background-image: url(../image/vector-main/Vector-gift.svg);
@@ -367,7 +367,7 @@ background-color: #756257;
   transform: translateX(-50%);
   width: 75px;
   height: 76px;
-  bottom: 130px;
+  bottom: 140px;
 }
 .advantages-item-food{
   background: #FFFFFF;
@@ -376,7 +376,7 @@ background-color: #756257;
 .search{
   padding: 96px 304px;
 }
-.search-botton{
+.search-link-botton{
   width: 376px;
   height: 52px;
   font-family: inherit;
@@ -397,6 +397,12 @@ background-color: #756257;
   width: 592px;
   margin: 0 auto;
   text-align: center;
+}
+.search-title{
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  margin-top: 0
 }
 .subscribe{
   background-image: url(../image/background_and_photo/background-subscribe.jpg);
@@ -423,12 +429,6 @@ background-color: #756257;
   border: none;
   text-transform: uppercase;
   border-radius: 0 4px 4px 0;
-}
-.search-title{
-  font-size: 30px;
-  line-height: 36px;
-  text-transform: uppercase;
-  margin-top: 0;
 }
 .field{
   width: 452px;
@@ -469,17 +469,17 @@ background-color: #756257;
   width: 48px;
   height: 40px;
 }
-.social-logo:hover{
- color: #68A2CA;
+.social-button:hover svg{
+ fill: #68A2CA;
 }
-.social-logo:focus{
-  color: #68A2CA;
- }
- .social-logo:active{
-  color: #68A2CA 30%;
- }
-.social-logo{
- color: #83B3D3;
+.social-button:focus svg{
+  fill: #68A2CA;
+}
+.ssocial-button:active svg{
+  fill: #68A2CA 30%;
+}
+.social-button svg{
+ fill: #83B3D3;
 }
 .social-button{
   margin: 50% 50%;
@@ -498,4 +498,13 @@ color: #756157;
 }
 .footer-contacts-address-phone:active{
   color: #756157 30%;
+}
+.footer-logo-HTML:hover svg{
+  fill: #756157;
+}
+.footer-logo-HTML:focus svg{
+  fill: #756157;
+}
+.footer-logo-HTML:active svg{
+  fill: #756157 30%;
 }
