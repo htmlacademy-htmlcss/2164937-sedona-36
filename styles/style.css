@@ -189,7 +189,8 @@ background-color: #756257;
   background-repeat: no-repeat;
 }
 .breadcrumbs{
-
+  font-size: 16px;
+  line-height: 21px;
 }
 .inner-header-title{
   font-size: 60px;
