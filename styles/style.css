@@ -43,15 +43,13 @@ body{
  line-height: 21px;
  color: #000;
  background-color: #f2f2f2;
- padding-left: 40px;
- padding-right: 40px;
 }
 .header{
   color: #000;
   background: #ffffff;
   padding-left: 70px;
   padding-right: 70px;
-  height: 64px;
+  min-height: 64px;
 }
 .main-container{
   flex-grow: 1;
@@ -91,6 +89,7 @@ left: 0;
   text-transform: uppercase;
 }
 .hero p {
+  color: #333333;
   font-size: 22px;
   line-height: 26px;
   text-align: center;
@@ -111,6 +110,7 @@ padding-left: 140px;
 display: flex;
 flex-wrap: wrap;
 margin: 0;
+margin-left: 45px;
 padding: 0;
 list-style-type: none;
 font-style: normal;
@@ -228,6 +228,7 @@ background-color: #756257;
 .hotel-card-price{
   text-align: right;
   color: #333333;
+
 }
 .hotel{
   text-align: left;
@@ -254,11 +255,16 @@ background-color: #756257;
 }
 .advantages-title {
   position: relative;
+  padding: 0;
+  margin: 0;
   font-size: 24px;
   line-height: 28px;
   text-align: center;
   font-weight: 700;
   text-transform: uppercase;
+}
+.adventages-description{
+color: #333333;
 }
 .advantages-title::after{
   content: "";
@@ -302,14 +308,17 @@ background-color: #756257;
 }
 .advantages-item-container{
   width: 400px;
-  height: 384px;
-  padding: 92px 85px;
+  min-height: 384px;
+  padding: 103px 85px;
 }
 .advantages-item-real-city{
   background-color: #82B3D3;
   color: #FFFFFF;
   display: flex;
   text-align: center;
+}
+.adventages-description-real-city{
+  color: #FFFFFF;
 }
 .advantages-item-devil-bridge{
   background: #82B3D3;
@@ -330,7 +339,7 @@ background-color: #756257;
   font-weight: 700;
   height: 28px;
   text-transform: uppercase;
-  margin-top: 101px;
+  margin-top: 80px;
 }
 .advantages-title-home::after{
   background-image: url(../image/vector-main/Vector-home.svg);
@@ -352,7 +361,7 @@ background-color: #756257;
   font-weight: 700;
   height: 28px;
   text-transform: uppercase;
-  margin-top: 101px;
+  margin-top: 80px;
 }
 .advantages-title-food::after{
   background-image: url(../image/vector-main/Vector-food.svg);
@@ -375,7 +384,7 @@ background-color: #756257;
   font-weight: 700;
   height: 28px;
   text-transform: uppercase;
-  margin-top: 100px;
+  margin-top: 90px;
 }
 .advantages-title-gift::after{
   background-image: url(../image/vector-main/Vector-gift.svg);
@@ -427,11 +436,12 @@ background-color: #756257;
 }
 .search-text{
   margin-bottom: 54px;
+  color: #333333;
 }
 .subscribe{
   background-image: url(../image/background_and_photo/background-subscribe.jpg);
   background-repeat: no-repeat;
-  height: 414px;
+  min-height: 414px;
 }
 .subscribe-container{
   width: 684px;
@@ -446,6 +456,7 @@ background-color: #756257;
 .subscribe-button{
   width: 232px;
   color: #FFFFFF;
+  font-family: "PT Sans";
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
@@ -455,10 +466,17 @@ background-color: #756257;
   border-radius: 0 4px 4px 0;
 }
 .field{
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
   width: 452px;
   height: 52px;
   border: none;
   border-radius: 4px 0 0 4px;
+}
+.field:placeholder-shown{
+  background: #f2f2f2;
 }
 .footer-title{
   font-size: 30px;
