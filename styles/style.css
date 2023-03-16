@@ -341,7 +341,8 @@ color: #333333;
   min-height: 384px;
   padding: 91px 85px;
 }
-.adventages-description-real-city{
+.adventages-description-real-city,
+.adventages-description-devil-bridge{
   color: #FFFFFF;
 }
 .advantages-item-devil-bridge{
@@ -423,7 +424,7 @@ color: #333333;
   transform: translateX(-50%);
   width: 75px;
   height: 76px;
-  bottom: 140px;
+  bottom: 134px;
 }
 .advantages-item-food{
   background: #FFFFFF;
@@ -552,12 +553,16 @@ color: #333333;
 }
 .social-button{
   margin: 50% 50%;
+  padding-top: 10px;
 }
 .footer-contacts-address-phone{
   color: #000;
   font-size: 40px;
   line-height: 45px;
   text-decoration: none;
+}
+.footer-logo-HTML{
+  padding-top: 7px;
 }
 .footer-contacts-address-phone:hover{
 color: #756157;
