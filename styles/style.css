@@ -194,6 +194,12 @@ background-color: #756257;
  font-size: 16px;
  line-height: 20px;
 }
+.navigation-link-button:hover{
+ fill: #615048;
+}
+.navigation-link-button:focus{
+  fill: #615048;
+}
 .navigation-user{
   margin-left: auto;
   display: flex;
