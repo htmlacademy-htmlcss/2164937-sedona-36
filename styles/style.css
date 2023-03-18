@@ -142,7 +142,7 @@ text-decoration: none;
 .navigation-link-icon{
   position: relative;
   display: block;
-  padding: 0 20px;
+  padding: 30px 22px;
 }
 .navigation-icon{
   position: absolute;
@@ -158,7 +158,7 @@ position: absolute;
 width: 20px;
 height: 20px;
 left: 20px;
-bottom: 1px;
+bottom: 31px;
 text-decoration: none;
 color: #ffffff;
 border-radius: 10px;
@@ -195,10 +195,14 @@ background-color: #756257;
  line-height: 20px;
 }
 .navigation-link-button:hover{
- fill: #615048;
+  background-color: #615048;
 }
 .navigation-link-button:focus{
-  fill: #615048;
+  background-color: #615048;
+}
+.navigation-link-button:active{
+  background-color: #756157;
+  color: #FFFFFF 30%;
 }
 .navigation-user{
   margin-left: auto;
@@ -457,6 +461,16 @@ color: #333333;
   border-radius: 4px 4px 4px 4px;
   cursor: pointer;
 }
+.search-link-botton:hover{
+  background-color: #615048;
+}
+.search-link-botton:focus{
+  background-color: #615048;
+}
+.search-link-botton:active{
+  background-color: #756157;
+  color: #FFFFFF 30%;
+}
 .search-container{
   width: 592px;
   margin: 0 auto;
@@ -502,6 +516,16 @@ color: #333333;
   border: none;
   text-transform: uppercase;
   border-radius: 0 4px 4px 0;
+}
+.subscribe-button:hover{
+  background-color: #68A2CA;
+}
+.subscribe-button:focus{
+  background-color: #68A2CA;
+}
+.subscribe-button:active{
+  background-color: #68A2CA;
+  color: #FFFFFF 30%;
 }
 .field{
   font-family: "PT Sans";
