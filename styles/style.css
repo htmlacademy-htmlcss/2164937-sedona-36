@@ -112,6 +112,15 @@ left: 0;
   display: block;
   margin: 0 auto;
 }
+.navigation-item:hover{
+  color: #756157;
+}
+.navigation-item:focus{
+  color: #756157;
+}
+.navigation-item:active{
+  color: #756157 30%;
+}
 .navigation{
 position: relative;
 display: flex;
@@ -151,6 +160,15 @@ text-decoration: none;
   bottom: 0;
   left: 0;
   margin: auto;
+}
+.navigation-link-icon:hover svg{
+  fill: #756157;
+}
+.navigation-link-icon:focus svg{
+  fill: #756157;
+}
+.navigation-link-icon:active svg{
+  fill: #756157 30%;
 }
 .favourites-icon{
 background-color: #6C9E42;
@@ -314,6 +332,7 @@ color: #333333;
   text-align: center;
   font-weight: 700;
   text-transform: uppercase;
+  margin-top: 10px;
 }
 .advantages-title-center::after{
   content: "";
@@ -345,12 +364,13 @@ color: #333333;
   display: flex;
   text-align: center;
   min-height: 384px;
+  align-items: center;
 }
 .advantages-item-container-real-city,
 .advantages-item-container-devil-bridge{
   width: 400px;
   min-height: 384px;
-  padding: 91px 85px;
+
 }
 .adventages-description-real-city,
 .adventages-description-devil-bridge{
@@ -362,11 +382,35 @@ color: #333333;
   display: flex;
   flex-direction: row-reverse;
   text-align: center;
-  height: 384px;
+  min-height: 384px;
+  align-items: center;
 }
-
+.img-real-city,
+.img-devil-bridge{
+  background-color: #FFFFFF;
+}
 .advantages-item-road{
   background: rgba(131, 179, 211, 0.2);
+}
+.personal{
+  width: 1200px;
+  background-color: #ffffff;
+  padding: 64px 0 64px 0;
+  text-align: center;
+}
+.personal-title{
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+.personal-text{
+  color: #333333;
+  font-family: "PT Sans", sans-serif;
+  font-size: 22px;
+  line-height: 26px;
+  padding-top: 22px;
+  margin: 0 auto;
 }
 .advantages-title-home {
   background-repeat: no-repeat;
@@ -400,7 +444,7 @@ color: #333333;
   font-weight: 700;
   height: 28px;
   text-transform: uppercase;
-  margin-top: 83px;
+  margin-top: 87px;
 }
 .advantages-title-food::after{
   background-image: url(../image/vector-main/vector-icon-food.svg);
@@ -445,7 +489,7 @@ color: #333333;
 }
 .search{
   background-color: #ffffff;
-  padding: 33px 304px 108px 304px;
+  padding: 33px 0 108px 0;
 }
 .search-link-botton{
   font-family: inherit;
@@ -473,7 +517,6 @@ color: #333333;
   color: #FFFFFF 30%;
 }
 .search-container{
-  width: 592px;
   margin: 0 auto;
   text-align: center;
 }
@@ -495,12 +538,13 @@ color: #333333;
   background-image: url(../image/background_and_photo/background-subscribe.jpg);
   background-repeat: no-repeat;
   min-height: 414px;
-  }
+}
 .subscribe-container{
   width: 684px;
   margin: 0 auto;
   text-align: center;
   padding-top: 68px;
+  padding-bottom: 108px;
   color: #ffffff;
 }
 .subscribe-form{
@@ -509,7 +553,7 @@ color: #333333;
 .subscribe-button{
   width: 232px;
   color: #FFFFFF;
-  font-family: "PT Sans" sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
@@ -517,6 +561,7 @@ color: #333333;
   border: none;
   text-transform: uppercase;
   border-radius: 0 4px 4px 0;
+  cursor: pointer;
 }
 .subscribe-button:hover{
   background-color: #68A2CA;
@@ -529,7 +574,7 @@ color: #333333;
   color: #FFFFFF 30%;
 }
 .field{
-  font-family: "PT Sans" sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
@@ -538,6 +583,9 @@ color: #333333;
   border-radius: 4px 0 0 4px;
   padding: 14px 20px;
   background-color: #f2f2f2;
+}
+.footer{
+  background-color: #FFFFFF;
 }
 .footer-title{
   font-size: 30px;
