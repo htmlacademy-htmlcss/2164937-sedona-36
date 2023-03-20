@@ -64,7 +64,7 @@ left: 0;
   background: url(../image/background_and_photo/index-background.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   width: 100%;
   margin: 0 auto;
 }
@@ -88,7 +88,7 @@ left: 0;
   text-transform: uppercase;
 }
 .hero h2::before{
-  background-image: url(../image/vector-main/vector-crown.svg);
+  background-image: url(../image/vector-main/crown.svg);
   background-repeat: no-repeat;
   content: "";
   display: block;
@@ -111,6 +111,15 @@ left: 0;
 .logo{
   display: block;
   margin: 0 auto;
+}
+.navigation-item:hover{
+  color: #756157;
+}
+.navigation-item:focus{
+  color: #756157;
+}
+.navigation-item:active{
+  color: rgba(117, 97, 87, 0.3)
 }
 .navigation{
 position: relative;
@@ -151,6 +160,15 @@ text-decoration: none;
   bottom: 0;
   left: 0;
   margin: auto;
+}
+.navigation-link-icon:hover svg{
+  fill: #756157;
+}
+.navigation-link-icon:focus svg{
+  fill: #756157;
+}
+.navigation-link-icon:active svg{
+  fill:rgba(117, 97, 87, 0.3)
 }
 .favourites-icon{
 background-color: #6C9E42;
@@ -202,7 +220,7 @@ background-color: #756257;
 }
 .navigation-link-button:active{
   background-color: #756157;
-  color: #FFFFFF 30%;
+  color: rgba(255, 255, 255, 0.3)
 }
 .navigation-user{
   margin-left: auto;
@@ -314,6 +332,7 @@ color: #333333;
   text-align: center;
   font-weight: 700;
   text-transform: uppercase;
+  margin-top: 10px;
 }
 .advantages-title-center::after{
   content: "";
@@ -345,12 +364,12 @@ color: #333333;
   display: flex;
   text-align: center;
   min-height: 384px;
+  align-items: center;
 }
 .advantages-item-container-real-city,
 .advantages-item-container-devil-bridge{
   width: 400px;
   min-height: 384px;
-  padding: 91px 85px;
 }
 .adventages-description-real-city,
 .adventages-description-devil-bridge{
@@ -362,11 +381,35 @@ color: #333333;
   display: flex;
   flex-direction: row-reverse;
   text-align: center;
-  height: 384px;
+  min-height: 384px;
+  align-items: center;
 }
-
+.img-real-city,
+.img-devil-bridge{
+  background-color: #e7ae87;
+}
 .advantages-item-road{
   background: rgba(131, 179, 211, 0.2);
+}
+.personal{
+  width: 1200px;
+  background-color: #ffffff;
+  padding: 64px 0 64px 0;
+  text-align: center;
+}
+.personal-title{
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+.personal-text{
+  color: #333333;
+  font-family: "PT Sans", sans-serif;
+  font-size: 22px;
+  line-height: 26px;
+  padding-top: 22px;
+  margin: 0 auto;
 }
 .advantages-title-home {
   background-repeat: no-repeat;
@@ -381,7 +424,7 @@ color: #333333;
   margin-bottom: 30px;
 }
 .advantages-title-home::after{
-  background-image: url(../image/vector-main/vector-icon-home.svg);
+  background-image: url(../image/vector-main/icon-home.svg);
   background-repeat: no-repeat;
   content: "";
   display: block;
@@ -400,10 +443,10 @@ color: #333333;
   font-weight: 700;
   height: 28px;
   text-transform: uppercase;
-  margin-top: 83px;
+  margin-top: 87px;
 }
 .advantages-title-food::after{
-  background-image: url(../image/vector-main/vector-icon-food.svg);
+  background-image: url(../image/vector-main/icon-food.svg);
   background-repeat: no-repeat;
   content: "";
   display: block;
@@ -427,7 +470,7 @@ color: #333333;
   margin-bottom: 30px;
 }
 .advantages-title-gift::after{
-  background-image: url(../image/vector-main/vector-icon-gift.svg);
+  background-image: url(../image/vector-main/icon-gift.svg);
   background-repeat: no-repeat;
   content: "";
   display: block;
@@ -445,7 +488,7 @@ color: #333333;
 }
 .search{
   background-color: #ffffff;
-  padding: 33px 304px 108px 304px;
+  padding: 33px 0 108px 0;
 }
 .search-link-botton{
   font-family: inherit;
@@ -470,10 +513,10 @@ color: #333333;
 }
 .search-link-botton:active{
   background-color: #756157;
-  color: #FFFFFF 30%;
+  color: rgba(255, 255, 255, 0.3);
+
 }
 .search-container{
-  width: 592px;
   margin: 0 auto;
   text-align: center;
 }
@@ -495,12 +538,14 @@ color: #333333;
   background-image: url(../image/background_and_photo/background-subscribe.jpg);
   background-repeat: no-repeat;
   min-height: 414px;
-  }
+  background-size: cover;
+}
 .subscribe-container{
   width: 684px;
   margin: 0 auto;
   text-align: center;
   padding-top: 68px;
+  padding-bottom: 108px;
   color: #ffffff;
 }
 .subscribe-form{
@@ -509,7 +554,7 @@ color: #333333;
 .subscribe-button{
   width: 232px;
   color: #FFFFFF;
-  font-family: "PT Sans" sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
@@ -517,6 +562,7 @@ color: #333333;
   border: none;
   text-transform: uppercase;
   border-radius: 0 4px 4px 0;
+  cursor: pointer;
 }
 .subscribe-button:hover{
   background-color: #68A2CA;
@@ -526,10 +572,10 @@ color: #333333;
 }
 .subscribe-button:active{
   background-color: #68A2CA;
-  color: #FFFFFF 30%;
+  color:  rgba(255, 255, 255, 0.3);
 }
 .field{
-  font-family: "PT Sans" sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
@@ -538,6 +584,9 @@ color: #333333;
   border-radius: 4px 0 0 4px;
   padding: 14px 20px;
   background-color: #f2f2f2;
+}
+.footer{
+  background-color: #FFFFFF;
 }
 .footer-title{
   font-size: 30px;
@@ -578,8 +627,8 @@ color: #333333;
 .social-button:focus svg{
   fill: #68A2CA;
 }
-.ssocial-button:active svg{
-  fill: #68A2CA 30%;
+.social-button:active svg{
+  fill: rgba(104, 162, 202, 0.3)
 }
 .social-button svg{
  fill: #83B3D3;
@@ -604,7 +653,7 @@ color: #756157;
   color: #756157;
 }
 .footer-contacts-address-phone:active{
-  color: #756157 30%;
+  color: rgba(117, 97, 87, 0.3)
 }
 .footer-logo-HTML:hover svg{
   fill: #756157;
@@ -613,5 +662,5 @@ color: #756157;
   fill: #756157;
 }
 .footer-logo-HTML:active svg{
-  fill: #756157 30%;
+  fill: rgba(117, 97, 87, 0.3)
 }
